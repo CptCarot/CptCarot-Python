@@ -12,7 +12,9 @@ def circleArea(r):
 def circleCirc(r):
   return math.pi*2*r
 
-# result = math.trunc(hypo(3,4))
-# result = circleArea(3)
-result = circleCirc(3)
-print(   str(result)   )
+result1 = math.trunc(hypo(3,4))
+result2 = circleArea(3)
+result3 = circleCirc(3)
+print( "          Hypotenuse = " + str(result1)   )
+print( "         Circle Area = " + str(result2)   )
+print( "Circle Circumference = " + str(result3)   )
