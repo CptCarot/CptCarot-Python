@@ -17,3 +17,7 @@ print "His teeth are usually " + str(teeth) + " depending on the coffee."
 # this line is tricky, try to get it exactly right
 
 print ('The sum of {0} and {1} and {2} is {3}'.format(age, height, weight, sum))
+
+
+
+user_input = input('Enter Text: ')
