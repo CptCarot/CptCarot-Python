@@ -19,5 +19,19 @@ print "His teeth are usually " + str(teeth) + " depending on the coffee."
 print ('The sum of {0} and {1} and {2} is {3}'.format(age, height, weight, sum))
 
 
-
+#===================================================================================
+# This Code allows you to input some test string and then prints the reverse of it.
 user_input = input('Enter Text: ')
+word = str(user_input)
+length = len(word)
+print(str(length))
+
+i = length
+final = []
+while i > 0:
+    final.append(word[i - 1])
+    i -= 1
+
+null = ''
+reversed = null.join(final)
+print(reversed)
