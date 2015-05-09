@@ -1,0 +1,19 @@
+name = raw_input("Enter name: ")
+age = raw_input("Enter age: ")
+height = raw_input("Enter height(inches): ")
+weight = raw_input("Enter weight(lbs): ")
+eye = raw_input("Enter eye colour: ")
+teeth = raw_input("Enter teeth colour: ")
+hair = raw_input("Enter hair colour: ")
+sum = float(age) + float(height) + float(weight)
+
+print "Let's talk about " +str(name)
+print "He's " + str(height) + " inches tall,"
+print "He's " + str(weight) + " pounds heavy."
+print "Actually that's not too heavy."
+print "He's got " + str(eye) + " eyes and " + str(hair) + " hair."
+print "His teeth are usually " + str(teeth) + " depending on the coffee."
+
+# this line is tricky, try to get it exactly right
+
+print ('The sum of {0} and {1} and {2} is {3}'.format(age, height, weight, sum))
