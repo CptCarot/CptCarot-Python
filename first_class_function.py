@@ -22,3 +22,5 @@ result3 = circleCirc(3)
 print( "          Hypotenuse = " + str(result1)   )
 print( "         Circle Area = " + str(result2)   )
 print( "Circle Circumference = " + str(result3)   )
+
+# I added this while Merrick was with me
